@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="bg-gray-700 font-mono">
+    <main class="min-h-dvh flex items-center justify-center flex-col gap-3">
+      <h1 class="text-center font-bold text-3xl text-white">Weather App</h1>
+      <div class="content p-6 bg-gray-200 min-w-80 rounded">
+        <form action="">
+          <label for="city" class="block text-gray-700">City Name:</label>
+          <input
+            type="text"
+            placeholder="type city name"
+            class="w-full my-3 p-2 rounded focus:outline-0 focus:ring-2 focus:ring-gray-400 border border-transparent font-medium text-gray-700"
+            required
+            spellcheck="false"
+          />
+          <button
+            type="submit"
+            class="w-full text-white transition-colors hover:bg-gray-500 bg-slate-400 my-3 p-2 rounded border font-medium"
+          >
+            Get Weather
+          </button>
+        </form>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+
+
